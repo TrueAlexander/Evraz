@@ -1,0 +1,187 @@
+/*reset default CSS*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+button {
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+
+
+body {
+  background-color: #fbc658;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.window__data {
+  margin: 0 30px;
+  text-align: center;
+  display: block;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 7px rgba(182, 0, 0, 0.692), -5px -5px 7px rgba(182, 0, 0, 0.692); 
+}
+
+.data__title {}
+
+.data__subtitle {
+  margin: 20px 0;
+}
+
+.data__form {
+  font-size: 1.3em;
+}
+
+.data__box {
+  margin: 15px 0;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1 1 auto;
+}
+
+.data__item {
+  border-radius: 7px;
+  padding: 10px;
+  margin: 15px 10px;
+  background-color: #fbc5584d;
+}
+
+.data__time {
+  margin-bottom: 10px;
+}
+
+.data__row {
+  text-align: end;
+}
+
+.data__component {
+  margin-bottom: 7px;
+}
+
+input {
+  border-radius: 7px;
+  border: 1px solid rgba(182, 0, 0, 0.692);
+  padding: 5px;
+  margin-left: 10px;
+}
+
+input:hover, input:focus {
+  box-shadow: 0px 0px 5px rgba(182, 0, 0, 0.692); 
+}
+
+button {
+  background-color: rgba(182, 0, 0, 0.692);
+  border-radius: 7px;
+  padding: 5px;
+  color: #f5f5f5;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+button:hover {
+  box-shadow: 0px 0px 7px rgba(182, 0, 0, 0.692);
+  color: #fbc658;
+}
+
+.window__chart {
+  text-align: center;
+  display: none;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 7px rgba(182, 0, 0, 0.692), -5px -5px 7px rgba(182, 0, 0, 0.692);
+  margin: 0 30px;
+  width: 90%;
+}
+
